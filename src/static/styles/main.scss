@@ -1,0 +1,40 @@
+@import "normalize";
+@import "components/fonts";
+@import "components/variables";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: $font-size-base;
+}
+
+body {
+	font-family: $font-family-base;
+	font-size: 1.4rem;
+	color: $font-color-base;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;	
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.blockquote-slick-slider {
+    width: 400px;
+    margin: 0 auto;
+}
+
